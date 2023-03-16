@@ -1,7 +1,7 @@
 using Profile,ProfileView,BenchmarkTools
 using Muscade
 
-include("SomeElements.jl")
+include("../Test/SomeElements.jl")
 
 model           = Model(:TestModel)
 n1              = addnode!(model,𝕣[ 0, 0])  # moving node
